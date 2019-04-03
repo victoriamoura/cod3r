@@ -25,7 +25,7 @@ console.log("Escola ".concat(escola).concat("!"));
 console.log(escola.replace(3, 'e'));
 
 // substitui todos os digitos pela letra 3
-console.log(escola.replace(/\d/, 'e'));
+console.log(escola.replace(/\d/, 'e')); 
 
 // substituio todos numeros e letras pela letra e
 console.log(escola.replace(/\w/g, 'e'));
