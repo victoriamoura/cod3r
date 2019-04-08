@@ -1,6 +1,6 @@
 const funcoes = []
 
-for (let i = 0; i < 10; i++) {
+for (let i = 2; i < 12; i++) {
     funcoes.push(function () {
         console.log(i)
     })
